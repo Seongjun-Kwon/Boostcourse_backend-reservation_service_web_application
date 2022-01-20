@@ -268,7 +268,7 @@ hr {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602251400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     text-indent: 100%;
@@ -432,7 +432,7 @@ hr {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     float: left;
@@ -467,7 +467,7 @@ hr {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     float: left;
@@ -686,8 +686,8 @@ hr {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book2.png?1602251400');
-    background-size: 330px 300px;
+    background-image: url('../img/spr_book2.png');
+    background-size: 330px 400px;
     vertical-align: top;
     text-indent: 100%;
     white-space: nowrap;
@@ -921,7 +921,7 @@ hr {
 .spr_book2.ico_arr6_lt {
     width: 11px;
     height: 20px;
-    background-position: -151px -50px;
+    background-position: -150px -50px;
 }
 .spr_book2.ico_arr6_lt.off {
     opacity: 0.6;
@@ -1119,7 +1119,7 @@ hr {
     width: 30px;
     height: 30px;
     color: transparent;
-    background-image: url('../img/spr_icons.png?1511161500');
+    background-image: url('../img/spr_icons.png');
     background-size: 200px 320px;
     vertical-align: top;
     text-indent: 100%;
@@ -1549,8 +1549,29 @@ input[type="checkbox"].chk_custom,
 input[type="radio"].rating_input,
 input[type="checkbox"].chk_agree {
     position: absolute;
-    left: -9999px;
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    background-image: url(../img/spr_book2.png);
+    background-size: 330px 400px;
+    background-position: -47px -673px;
+
 }
+
+input[type="checkbox"].chk_custom:checked,
+input[type="radio"].rating_input:checked,
+input[type="checkbox"].chk_agree:checked {
+
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 7px;
+    background-image: url(../img/spr_book2.png);
+    background-size: 330px 400px;
+    background-position: -75px -673px;
+
+}
+
 input[type="checkbox"].chk_custom + label,
 input[type="checkbox"].chk_agree + label {
     position: relative;
@@ -1561,6 +1582,8 @@ input[type="checkbox"].chk_agree + label {
 input[type="checkbox"].chk_custom + label {
     padding-left: 29px;
 }
+
+/*
 input[type="checkbox"].chk_custom:focus + label::before,
 input[type="checkbox"].chk_agree:focus + label::before {
     outline: 1px dotted #000;
@@ -1572,7 +1595,7 @@ input[type="checkbox"].chk_agree + label::before {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book2.png?1512221500');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     vertical-align: top;
 }
@@ -1604,6 +1627,7 @@ input[type="checkbox"].chk_agree:checked + label::before {
     background-position: -75px -273px;
     background-color: transparent;
 }
+*/
 input[type="search"],
 input[type="text"],
 input[type="password"],
@@ -1715,7 +1739,7 @@ select {
     line-height: 15px;
 }
 .form_horizontal .inline_form > .label {
-    padding-top: 3px;
+    padding-top: 6.5px;
     padding-bottom: 2px;
 }
 .form_horizontal .inline_form label.select_extra::before {
@@ -1738,7 +1762,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     text-indent: 100%;
@@ -1791,7 +1815,7 @@ select {
     font-size: 14px;
 }
 .form_horizontal .inline_form .inline_control .inline_txt {
-    padding-top: 5px;
+    padding-top: 2px;
     font-size: 14px;
     color: #bbb;
 }
@@ -1897,7 +1921,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     text-indent: 100%;
@@ -2538,7 +2562,7 @@ select {
     left: 0;
     width: 9px;
     height: 11px;
-    background-image: url('../img/spr_book2.png?1512221500');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     background-repeat: no-repeat;
     background-position: -299px -26px;
@@ -2835,7 +2859,7 @@ select {
     width: 8px;
     height: 15px;
     background-repeat: no-repeat;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
 }
 .calendar .tit_calendar .calendar-btn.calendar-btn-prev-mon {
@@ -3066,7 +3090,7 @@ select {
     width: 8px;
     height: 15px;
     background-repeat: no-repeat;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
 }
 .light_calendar .calendar .tit_calendar .calendar-btn.calendar-btn-prev-mon {
@@ -3548,7 +3572,7 @@ select {
     display: inline-block;
     margin-right: 5px;
     width: auto;
-    height: 80px;
+    /*  height: 80px; */
 }
 .item_preview_thumbs .lst_thumb .item a {
     position: relative;
@@ -3710,7 +3734,7 @@ select {
     right: 71.5px;
     width: 12px;
     height: 7.5px;
-    background-image: url('../img/spr_book2.png?1602251400');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     background-position: -296px -62px;
 }
@@ -4143,6 +4167,7 @@ select {
     display: inline-block;
     white-space: normal;
     vertical-align: top;
+    width: 100%
 }
 .group_visual .visual_img .item .img_bg {
     background: rgba(255, 255, 255, 0);
@@ -4392,7 +4417,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book2.png?1512221500');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     vertical-align: top;
     width: 11px;
@@ -6306,7 +6331,7 @@ select {
     display: inline-block;
     width: 11px;
     height: 20px;
-    background-image: url('../img/spr_book2.png?1512221500');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     background-repeat: no-repeat;
     background-position: -138px -55px;
@@ -6512,7 +6537,7 @@ select {
     display: inline-block;
     padding: 10px 6px;
 }
-.section_info_tab .info_tab_lst li > a :hover,
+/* .section_info_tab .info_tab_lst li > a :hover, */
 .section_info_tab .info_tab_lst li > a.active {
     border-bottom: 2px solid #00c73c;
     color: #00c73c;
@@ -7536,9 +7561,9 @@ select {
 }
 .section_booking_agreement .agreement .btn_agreement {
     position: absolute;
-    top: 0;
+    top: 14px;
     right: 2.5px;
-    padding: 14px 0 2px;
+    padding: 0 0 2px;
     font-family: 'HelveticaNeue', helvetica, 'AppleSDGothicNeo-Regular', 'Apple SD Gothic Neo', sans-serif;
     font-size: 12px;
     line-height: 14px;
@@ -8290,13 +8315,13 @@ select {
 .section_confirm .confirm_item_top:before {
     bottom: 0;
     left: 0;
-    background-image: url('../img/bg/bg_confirm_check_bottom_left.png');
+    background-image: url('../img/bg_confirm_check_bottom_left.png');
     background-position: 0 0;
 }
 .section_confirm .confirm_item_top:after {
     bottom: 0;
     right: 0;
-    background-image: url('../img/bg/bg_confirm_check_bottom_right.png');
+    background-image: url('../img/bg_confirm_check_bottom_right.png');
     background-position: 100% 0;
 }
 .section_confirm .confirm_item_top .common_bottom_buttongroup {
@@ -9169,25 +9194,25 @@ select {
     padding-bottom: 0;
 }
 .section_confirm.default .confirm_item_top .item_top_inside_left {
-    background-image: url('../img/bg/bg_confirm_check_left.png');
+    background-image: url('../img/bg_confirm_check_left.png');
 }
 .section_confirm.default .confirm_item_top .item_top_inside_left .item_top_inside_right {
-    background-image: url('../img/bg/bg_confirm_check_right.png');
+    background-image: url('../img/bg_confirm_check_right.png');
 }
 .section_confirm.default .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title {
-    background-image: url('../img/bg/bg_confirm_check_center.png');
+    background-image: url('../img/bg_confirm_check_center.png');
 }
 .section_confirm.okay .confirm_item_top .confirm_btn_share {
     display: block;
 }
 .section_confirm.okay .confirm_item_top .item_top_inside_left {
-    background-image: url('../img/bg/bg_confirm_check_green_left.png');
+    background-image: url('../img/bg_confirm_check_green_left.png');
 }
 .section_confirm.okay .confirm_item_top .item_top_inside_left .item_top_inside_right {
-    background-image: url('../img/bg/bg_confirm_check_green_right.png');
+    background-image: url('../img/bg_confirm_check_green_right.png');
 }
 .section_confirm.okay .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title {
-    background-image: url('../img/bg/bg_confirm_check_green_center.png');
+    background-image: url('../img/bg_confirm_check_green_center.png');
 }
 .section_confirm.okay .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title > span {
     position: relative;
@@ -9203,25 +9228,25 @@ select {
     padding-right: 35px;
 }
 .section_confirm.cancel .confirm_item_top .item_top_inside_left {
-    background-image: url('../img/bg/bg_confirm_check_gray_left.png');
+    background-image: url('../img/bg_confirm_check_gray_left.png');
 }
 .section_confirm.cancel .confirm_item_top .item_top_inside_left .item_top_inside_right {
-    background-image: url('../img/bg/bg_confirm_check_gray_right.png');
+    background-image: url('../img/bg_confirm_check_gray_right.png');
 }
 .section_confirm.cancel .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title {
-    background-image: url('../img/bg/bg_confirm_check_gray_center.png');
+    background-image: url('../img/bg_confirm_check_gray_center.png');
 }
 .section_confirm.cancel .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title .ico_clock {
     background-position: -297px -131px;
 }
 .section_confirm.used .confirm_item_top .item_top_inside_left {
-    background-image: url('../img/bg/bg_confirm_check_gray_used_left.png');
+    background-image: url('../img/bg_confirm_check_gray_used_left.png');
 }
 .section_confirm.used .confirm_item_top .item_top_inside_left .item_top_inside_right {
-    background-image: url('../img/bg/bg_confirm_check_gray_used_right.png');
+    background-image: url('../img/bg_confirm_check_gray_used_right.png');
 }
 .section_confirm.used .confirm_item_top .item_top_inside_left .item_top_inside_right .confirm_title {
-    background-image: url('../img/bg/bg_confirm_check_gray_used_center.png');
+    background-image: url('../img/bg_confirm_check_gray_used_center.png');
     background-size: 4px 53px;
     height: 38px;
 }
@@ -9497,7 +9522,7 @@ select {
     margin: 18.5px auto 39px;
     width: 200px;
     height: 36.5px;
-    background-image: url('../img/spr_book.png?1602251400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     background-position: -46px -334px;
 }
@@ -9940,12 +9965,12 @@ select {
 }
 .review_contents.write {
     overflow-y: auto;
-    position: absolute;
-    top: 102px;
+    position: relative;
+    top: 44px;
     left: 0;
     right: 0;
     bottom: 43px;
-    padding: 18px 13px 35px;
+    padding: 18px 13px 0;
     background-color: #fff;
     font: 0px/0 a;
 }
@@ -9979,7 +10004,7 @@ select {
     display: block;
     width: 100%;
     height: 100%;
-    border: none;
+    /* border: none; */
     font-family: 'HelveticaNeue', helvetica, 'AppleSDGothicNeo-Regular', 'Apple SD Gothic Neo', sans-serif;
     font-size: 14px;
     color: #777;
@@ -10000,7 +10025,7 @@ select {
     font-size: 14px;
 }
 .review_contents .review_textarea:focus {
-    border: none;
+    /*  border: none;*/
     outline: none;
 }
 .review_contents .review_txt {
@@ -10052,20 +10077,21 @@ select {
     font-size: 13px;
 }
 .review_photos {
+    padding-top: 10px;
     padding-bottom: 20px;
     background-color: #fff;
 }
 .review_photos .item_preview_thumbs {
     padding-top: 0;
-    padding-left: 15px;
+    padding-left: 0;
 }
 .review_photos .item_preview_thumbs .lst_thumb .item {
     width: auto;
-    height: 160px;
+    /*  height: 80px; */
 }
 .review_photos .item_preview_thumbs .lst_thumb .item .item_thumb {
     width: auto;
-    height: 160px;
+    /*    height: 80px; */
 }
 .section_review_list {
     padding: 18px 0 19px;
@@ -10134,7 +10160,7 @@ select {
     margin-top: 22px;
 }
 .review_write_footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     max-width: 414px;
     width: 100%;
@@ -10201,7 +10227,7 @@ select {
     float: left;
 }
 .write_act .review_rating {
-    position: absolute;
+    /*position: relative;*/
     top: 0;
     left: 43px;
     background-color: #fff;
@@ -10223,7 +10249,7 @@ select {
     left: 12px;
     width: 78px;
     height: 14px;
-    background-image: url('/img/spr_comment.png');
+    background-image: url('../img/spr_comment.png');
     background-repeat: no-repeat;
     background-size: 89px 100px;
     background-position: 0 -61px;
@@ -10232,7 +10258,7 @@ select {
 }
 .write_act .review_rating .bg_star > span {
     float: left;
-    background-image: url('/img/spr_comment.png');
+    background-image: url('../img/spr_comment.png');
     background-repeat: no-repeat;
     background-size: 89px 100px;
     background-position: 0 -76px;
@@ -10333,7 +10359,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book.png?1602181400');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     vertical-align: top;
     width: 10px;
@@ -10408,7 +10434,7 @@ select {
     margin: 0 auto;
     width: 20px;
     height: 20px;
-    background-image: url('/img/img_loading.gif');
+    background-image: url('../img/img_loading.gif');
     background-poisition: 0 0;
     background-repeat: no-repeat;
     background-size: 20px 20px;
@@ -10417,7 +10443,7 @@ select {
 .section_review_box_wrap .grade_area .graph_mask,
 .section_review_box_wrap .grade_area .graph_value,
 .section_review_box_wrap .short_review_area .review_info .grade:before {
-    background-image: url('/img/spr_comment.png');
+    background-image: url('../img/spr_comment.png');
     background-repeat: no-repeat;
     background-size: 89px 100px;
 }
@@ -10615,7 +10641,7 @@ select {
     margin-left: 5px;
     width: 10px;
     height: 6px;
-    background-image: url('/img/spr_book.png');
+    background-image: url('../img/spr_book.png');
     background-position: -324px -212px;
     background-repeat: no-repeat;
     background-size: 400px auto;
@@ -10641,7 +10667,7 @@ select {
     margin-right: 4px;
     width: 10px;
     height: 10px;
-    background-image: url('/img/spr_book.png');
+    background-image: url('../img/spr_book.png');
     background-position: -378px -187px;
     background-repeat: no-repeat;
     background-size: 400px auto;
@@ -10759,7 +10785,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book2.png?1512221500');
+    background-image: url('../img/spr_book2.png');
     background-size: 330px 300px;
     vertical-align: top;
     text-indent: 100%;
@@ -10931,7 +10957,7 @@ select {
 .section_my .wrap_mylist .list_cards .card .card_header .left {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_hl.png');
+    background-image: url('../img/bg_card_hl.png');
     background-size: 12px 54px;
     background-repeat: no-repeat;
     width: 12px;
@@ -10942,8 +10968,8 @@ select {
     position: relative;
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_hm.png');
-    background-size: 4px 54px;
+    background-image: url('../img/bg_card_hm.gif');
+    background-size: auto 54px;
     background-repeat: repeat-x;
     width: 100%;
     height: 54px;
@@ -10966,7 +10992,7 @@ select {
 .section_my .wrap_mylist .list_cards .card .card_header .right {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_hr.png');
+    background-image: url('../img/bg_card_hr.png');
     background-size: 12px 54px;
     background-repeat: no-repeat;
     width: 12px;
@@ -10976,16 +11002,18 @@ select {
 .section_my .wrap_mylist .list_cards .card .card_body {
     display: table-row;
 }
+/*
 .section_my .wrap_mylist .list_cards .card .card_body .left {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_bl.png');
+    background-image: url('../img/bg_card_bl.png');
     background-size: 12px 2px;
     background-repeat: repeat-y;
     width: 12px;
     height: 100%;
     vertical-align: top;
 }
+*/
 .section_my .wrap_mylist .list_cards .card .card_body .middle {
     overflow: hidden;
     display: table-cell;
@@ -11022,7 +11050,6 @@ select {
 }
 .section_my .wrap_mylist .list_cards .card .card_body .middle .card_detail .detail .item .item_tit {
     position: absolute;
-    left: -1px;
     font-family: 'Helveticaneue-light', helvetica, 'AppleSDGothicNeo-Light', 'Apple SD Gothic Neo', sans-serif;
     font-size: 16px;
     color: #999;
@@ -11056,23 +11083,25 @@ select {
     float: right;
     font-size: 16px;
 }
+/*
 .section_my .wrap_mylist .list_cards .card .card_body .right {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_br.png');
+    background-image: url('../img/bg_card_br.png');
     background-size: 12px 2px;
     background-repeat: repeat-y;
     width: 12px;
     height: 100%;
     vertical-align: top;
 }
+*/
 .section_my .wrap_mylist .list_cards .card .card_footer {
     display: table-row;
 }
 .section_my .wrap_mylist .list_cards .card .card_footer .left {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_fl.png');
+    background-image: url('../img/bg_card_fl.png');
     background-size: 12px 2px;
     background-repeat: no-repeat;
     width: 12px;
@@ -11082,7 +11111,7 @@ select {
 .section_my .wrap_mylist .list_cards .card .card_footer .middle {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_fm.png');
+    background-image: url('../img/bg_card_fm.png');
     background-size: 2px 2px;
     background-repeat: repeat-x;
     width: 100%;
@@ -11092,7 +11121,7 @@ select {
 .section_my .wrap_mylist .list_cards .card .card_footer .right {
     overflow: hidden;
     display: table-cell;
-    background-image: url('/img/bg/bg_card_fr.png');
+    background-image: url('../img/bg_card_fr.png');
     background-size: 12px 2px;
     background-repeat: no-repeat;
     width: 12px;
@@ -11102,27 +11131,31 @@ select {
 .section_my .wrap_mylist .list_cards .card.confirmed .card_header {
     display: table-row;
 }
+/*
 .section_my .wrap_mylist .list_cards .card.confirmed .card_header .left {
-    background-image: url('/img/bg/bg_card2_hl.png');
+    background-image: url('../img/bg_card2_hl.png');
 }
 .section_my .wrap_mylist .list_cards .card.confirmed .card_header .middle {
-    background-image: url('/img/bg/bg_card2_hm.png');
+    background-image: url('../img/bg_card2_hm.gif');
 }
 .section_my .wrap_mylist .list_cards .card.confirmed .card_header .right {
-    background-image: url('/img/bg/bg_card2_hr.png');
+    background-image: url('../img/bg_card2_hr.png');
 }
+*/
 .section_my .wrap_mylist .list_cards .card.used .card_header {
     display: table-row;
 }
+/*
 .section_my .wrap_mylist .list_cards .card.used .card_header .left {
-    background-image: url('/img/bg/bg_card3_hl.png');
+    background-image: url('../img/bg_card3_hl.png');
 }
 .section_my .wrap_mylist .list_cards .card.used .card_header .middle {
-    background-image: url('/img/bg/bg_card3_hm.png');
+    background-image: url('../img/bg_card3_hm.gif');
 }
 .section_my .wrap_mylist .list_cards .card.used .card_header .right {
-    background-image: url('/img/bg/bg_card3_hr.png');
+    background-image: url('../img/bg_card3_hr.png');
 }
+*/
 .section_my .btn_more {
     margin: 0 5px;
     padding-top: 11px;
@@ -11177,7 +11210,7 @@ select {
     overflow: hidden;
     position: relative;
     display: inline-block;
-    width: 84.4%;
+    width: 100%;
     height: 177px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11490,7 +11523,7 @@ select {
     overflow: hidden;
     display: inline-block;
     color: transparent;
-    background-image: url('../img/spr_book_event.png?151216');
+    background-image: url('../img/spr_book_event.png');
     background-size: 150px 50px;
     -webkit-background-size: 150px 50px;
     vertical-align: top;
@@ -11869,12 +11902,12 @@ select {
     margin-right: 8px;
     width: 25px !important;
     height: 25px !important;
-    background-image: url('../img/spr_book.png?1512221500');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     background-position: -80px -302px;
 }
 .adminbooking_login .login_form .agreement input[type="checkbox"].chk_agree:checked + label::before {
-    background-image: url('../img/spr_book.png?1512221500');
+    background-image: url('../img/spr_book.png');
     background-size: 400px 400px;
     background-position: -107px -302px;
 }
@@ -12261,6 +12294,7 @@ body.biz10 .section_item_details .item_details {
 }
 .talk .wrap_booking_inquiries .bk_ct2 .bk_result_area .nodata_bk_mnt {
     font-size: 15px;
+    font-weight: bold;
     line-height: 1.4;
     color: #999;
 }
@@ -12553,7 +12587,7 @@ body.biz10 .section_item_details .item_details {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    background: url(../img/spr_book_talk.png?1602041400) no-repeat;
+    background: url(../img/spr_book_talk.png) no-repeat;
     background-size: 150px 100px;
     line-height: 999px !important;
     vertical-align: top;
