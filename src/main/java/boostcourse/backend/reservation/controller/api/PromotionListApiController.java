@@ -1,4 +1,4 @@
-package boostcourse.backend.reservation.controller;
+package boostcourse.backend.reservation.controller.api;
 
 import boostcourse.backend.reservation.dto.PromotionResponse;
 import boostcourse.backend.reservation.service.PromotionListService;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PromotionListController {
+public class PromotionListApiController {
 
     private final PromotionListService promotionListService;
 
     @Autowired
-    public PromotionListController(PromotionListService promotionListService) {
+    public PromotionListApiController(PromotionListService promotionListService) {
         this.promotionListService = promotionListService;
     }
 

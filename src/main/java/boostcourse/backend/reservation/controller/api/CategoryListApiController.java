@@ -1,4 +1,4 @@
-package boostcourse.backend.reservation.controller;
+package boostcourse.backend.reservation.controller.api;
 
 import boostcourse.backend.reservation.dto.CategoryResponse;
 import boostcourse.backend.reservation.service.CategoryListService;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CategoryListController {
+public class CategoryListApiController {
 
     private final CategoryListService categoryService;
 
     @Autowired
-    public CategoryListController(CategoryListService categoryService) {
+    public CategoryListApiController(CategoryListService categoryService) {
         this.categoryService = categoryService;
     }
 

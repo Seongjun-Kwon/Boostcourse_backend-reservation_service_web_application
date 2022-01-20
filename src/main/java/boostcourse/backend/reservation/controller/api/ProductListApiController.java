@@ -1,4 +1,4 @@
-package boostcourse.backend.reservation.controller;
+package boostcourse.backend.reservation.controller.api;
 
 import boostcourse.backend.reservation.dto.ProductResponse;
 import boostcourse.backend.reservation.service.ProductListService;
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ProductListController {
+public class ProductListApiController {
 
     private final ProductListService productListService;
 
     @Autowired
-    public ProductListController(ProductListService productListService) {
+    public ProductListApiController(ProductListService productListService) {
         this.productListService = productListService;
     }
 
