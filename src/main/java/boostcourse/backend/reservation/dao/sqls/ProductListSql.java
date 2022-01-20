@@ -20,7 +20,7 @@ public class ProductListSql {
     public static final String SELECT_TOTAL_COUNTS_BY_CATEGORY =
             "SELECT count(*) FROM product p "
             + "INNER JOIN display_info d ON p.id = d.product_id "
-            + "WHERE p.category_id = :categoryID "
+            + "WHERE p.category_id = :categoryId "
             + "GROUP BY p.category_id ";
 
     public static final String SELECT_TOTAL_COUNTS =
