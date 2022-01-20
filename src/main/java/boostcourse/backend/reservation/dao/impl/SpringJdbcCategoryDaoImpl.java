@@ -1,4 +1,4 @@
-package boostcourse.backend.reservation.dao.categoryDaoImpl;
+package boostcourse.backend.reservation.dao.impl;
 
 import boostcourse.backend.reservation.dao.CategoryDao;
 import boostcourse.backend.reservation.dao.mapper.CategoryMapper;
