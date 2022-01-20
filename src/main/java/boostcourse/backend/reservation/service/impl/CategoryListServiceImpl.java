@@ -1,18 +1,18 @@
 package boostcourse.backend.reservation.service.impl;
 
-import boostcourse.backend.reservation.dao.CategoryDao;
+import boostcourse.backend.reservation.dao.CategoryListDao;
 import boostcourse.backend.reservation.dto.CategoryResponse;
-import boostcourse.backend.reservation.service.CategoryService;
+import boostcourse.backend.reservation.service.CategoryListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CategoryServiceImpl implements CategoryService {
+public class CategoryListServiceImpl implements CategoryListService {
 
-    private final CategoryDao categoryDao;
+    private final CategoryListDao categoryDao;
 
     @Autowired
-    public CategoryServiceImpl(CategoryDao categoryDao) {
+    public CategoryListServiceImpl(CategoryListDao categoryDao) {
         this.categoryDao = categoryDao;
     }
 

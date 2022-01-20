@@ -1,18 +1,18 @@
 package boostcourse.backend.reservation.controller;
 
 import boostcourse.backend.reservation.dto.CategoryResponse;
-import boostcourse.backend.reservation.service.CategoryService;
+import boostcourse.backend.reservation.service.CategoryListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CategoryController {
+public class CategoryListController {
 
-    private final CategoryService categoryService;
+    private final CategoryListService categoryService;
 
     @Autowired
-    public CategoryController(CategoryService categoryService) {
+    public CategoryListController(CategoryListService categoryService) {
         this.categoryService = categoryService;
     }
 

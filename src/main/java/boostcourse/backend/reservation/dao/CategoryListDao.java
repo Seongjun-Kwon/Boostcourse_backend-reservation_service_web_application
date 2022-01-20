@@ -4,6 +4,6 @@ import boostcourse.backend.reservation.dto.Category;
 
 import java.util.List;
 
-public interface CategoryDao {
+public interface CategoryListDao {
     List<Category> getCategoryList();
 }
