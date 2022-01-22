@@ -4,7 +4,7 @@ public class ProductImage {
     private String contentType;
     private String createDate;
     private boolean deleteFlag;
-    private Integer fileInfold;
+    private Integer fileInfoId;
     private String fileName;
     private String modifyDate;
     private Integer productId;
@@ -36,12 +36,12 @@ public class ProductImage {
         this.deleteFlag = deleteFlag;
     }
 
-    public Integer getFileInfold() {
-        return fileInfold;
+    public Integer getFileInfoId() {
+        return fileInfoId;
     }
 
-    public void setFileInfold(Integer fileInfold) {
-        this.fileInfold = fileInfold;
+    public void setFileInfoId(Integer fileInfoId) {
+        this.fileInfoId = fileInfoId;
     }
 
     public String getFileName() {
