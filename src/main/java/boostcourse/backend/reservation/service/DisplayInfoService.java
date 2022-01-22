@@ -1,0 +1,7 @@
+package boostcourse.backend.reservation.service;
+
+import boostcourse.backend.reservation.dto.DisplayInfo;
+
+public interface DisplayInfoService {
+    DisplayInfo getDisplayInfo(int displayInfoId);
+}
