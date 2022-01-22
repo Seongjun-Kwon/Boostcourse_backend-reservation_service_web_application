@@ -1,7 +1,6 @@
 package boostcourse.backend.reservation.service.impl;
 
 import boostcourse.backend.reservation.dao.DisplayInfoImageDao;
-import boostcourse.backend.reservation.dao.impl.DisplayInfoImageDaoImpl;
 import boostcourse.backend.reservation.dto.DisplayInfoImage;
 import boostcourse.backend.reservation.service.DisplayInfoImageService;
 import org.springframework.beans.factory.annotation.Autowired;
